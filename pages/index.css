@@ -18,19 +18,16 @@
 }
 
 .header__background {
-  object-fit: cover;
+  background-image: url("background_header.svg");
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   margin-top: -30px;
   margin: -30px 0 -40px 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
 }
 
 .header__image {
   position: absolute;
-  left: 795px;
   z-index: 1;
   top: 124px;
   right: 5px;
@@ -129,9 +126,10 @@
 }
 
 .recipes__background {
-  object-fit: cover;
+  background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
+  background-position: center;
+  background-image: url("background_recipes.svg");
 }
 
 .recipes__title {
@@ -176,4 +174,7 @@
   color: #ffffff;
   display: flex;
   justify-content: space-between;
+}
+
+.reservation__form {
 }
