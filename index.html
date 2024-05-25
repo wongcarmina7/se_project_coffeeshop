@@ -31,7 +31,7 @@
           />
           <ul class="nav__links">
             <li><a href="#recipes" class="nav__link">Recipes</a></li>
-            <li><a href="#header" class="nav__link">Book a table</a></li>
+            <li><a href="#reservation" class="nav__link">Book a table</a></li>
             <li><a href="#header" class="nav__link">Menu</a></li>
             <li><a href="#header" class="nav__link">Contacts</a></li>
           </ul>
@@ -63,7 +63,6 @@
       <main class="content">
         <section class="recipes" id="recipes">
           <h2 class="recipes__title">Recipes</h2>
-          <div class="recipes__background"></div>
 
           <p class="recipes__subtitle">
             Check out some recipes we've collected for your home-brewing
@@ -98,28 +97,48 @@
             </div>
           </div>
         </section>
-        <section class="reservation">
+        <section class="reservation" id="reservation">
           <h2 class="reservation__title">Book a table</h2>
           <form action="" class="reservation__form form">
             <fieldset class="form__fieldset">
               <label for="" class="form__label"
                 >Name *
-                <input type="text" class="form__input" />
+                <input
+                  type="text"
+                  class="form__input"
+                  placeholder="Name Surname"
+                />
               </label>
               <label for="" class="form__label"
                 >Number of guests *
-                <input type="number" class="form__input" />
+                <input type="number" class="form__input" placeholder="1-8" />
               </label>
               <label for="" class="form__label"
                 >Date & time *
-                <input type="datetime-local" class="form__input" />
+                <input
+                  type="datetime-local"
+                  class="form__input"
+                  placeholder="mm/dd/yyyy --:-- --"
+                />
               </label>
               <label for="" class="form__label"
                 >Your email *
-                <input type="email" class="form__input" />
+                <input
+                  type="email"
+                  class="form__input"
+                  placeholder="email@email.com"
+                />
               </label>
             </fieldset>
             <button class="form__button">Book a table</button>
+            <label for="" class="form__label form__label_type_checkbox">
+              <input
+                type="checkbox"
+                class="form__checkbox"
+                placeholder="Type here"
+              />
+              I agree with the terms of use
+            </label>
           </form>
         </section>
         <section class="menu"></section>

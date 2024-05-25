@@ -15,20 +15,15 @@
   height: 100vh;
   background-color: #ffffff;
   position: relative;
-}
-
-.header__background {
-  background-image: url("background_header.svg");
+  background-image: url("../images/background_header.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin-top: -30px;
   margin: -30px 0 -40px 0;
 }
 
 .header__image {
   position: absolute;
-  z-index: 1;
   top: 124px;
   right: 5px;
   width: 646px;
@@ -47,14 +42,12 @@
   gap: 20px;
   list-style-type: none;
   position: relative;
-  z-index: 2;
 }
 
 .nav__link {
   color: #000;
   text-decoration: none;
   font-family: Inter, Arial, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -74,29 +67,25 @@
   margin: 183px 0 28px;
   letter-spacing: -0.6px;
   font-family: Inter, Arial, sans-serif;
-  font-style: normal;
   font-weight: 500;
   position: relative;
-  z-index: 3;
+  z-index: 1;
 }
 
 .header__description {
   max-width: 683px;
   font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   margin: 20px 0 0;
   position: relative;
-  z-index: 4;
+  z-index: 2;
 }
 
 .header__span-accent {
   display: block;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
-  font-weight: normal;
   font-size: 60px;
   line-height: 72px;
   color: #2f80ed;
@@ -105,16 +94,15 @@
 .header__footer {
   display: flex;
   justify-content: space-between;
-  margin-top: auto;
+  margin: auto 0 40px;
   position: relative;
-  z-index: 1;
+
   color: #6f6f6f;
 }
 
 .header__paragraphs {
   margin: 0;
   font-family: Inter, Arial, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -123,19 +111,16 @@
 .recipes {
   background-color: #0a2750;
   padding: 100px 80px 215px;
-}
-
-.recipes__background {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("background_recipes.svg");
+  background-image: url("../images/background_recipes.svg");
+  position: relative;
 }
 
 .recipes__title {
   max-width: 580px;
   font-family: Inter, Arial, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -146,28 +131,26 @@
   max-width: 438px;
   padding-top: 24px;
   font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
 }
 
 .recipes__videos {
-  height: 273px;
-  width: 480px;
-  display: flex;
   gap: 40px;
+  display: flex;
   justify-content: center;
+  padding-left: 80;
 }
 
 .recipes__iframe {
+  height: 273px;
+  width: 480px;
 }
 
 .recipes__video-caption {
   padding-top: 24px;
   font-family: Inter, Arial, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
@@ -176,5 +159,87 @@
   justify-content: space-between;
 }
 
+.reservation {
+  padding: 100px 0 120px;
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+}
+
+.reservation__title {
+  margin: 0 0 80px;
+  text-align: center;
+  font-family: Inter, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
 .reservation__form {
+  margin: 0 auto;
+}
+
+.form {
+  max-width: 385px;
+}
+
+.form__fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.form__label {
+  margin-bottom: 32px;
+  display: block;
+  font-family: Inter, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__label_type_checkbox {
+  display: flex;
+  justify-content: center;
+  border-radius: 2px;
+  gap: 12px;
+  font-family: Inter, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  margin-top: 8px;
+  height: 60px;
+  border-radius: 4px;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+}
+
+.form__button {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 32px;
+  height: 60px;
+  border-radius: 4px;
+  opacity: 100%;
+  transition: 0.5s;
+  background-color: #2f80ed;
+  font-family: Inter, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__button:hover {
+  opacity: 70%;
 }
