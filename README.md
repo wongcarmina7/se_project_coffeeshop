@@ -13,4 +13,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+I would like to improve the reservations page by implementing a calendar that shows availability. Any reservation time-slots that are already booked would be marked as unavailable or shaded while any available spaces would be shown in green.
