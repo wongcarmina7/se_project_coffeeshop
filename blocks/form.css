@@ -40,7 +40,7 @@
   font-family: Inter, Arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
-  border: solid;
+  border: solid 1px;
 }
 
 .form__input::placeholder {
@@ -59,8 +59,8 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  border: solid 1px;
   color: white;
-  border: solid;
 }
 
 .form__button:hover {
