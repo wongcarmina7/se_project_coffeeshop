@@ -1,11 +1,16 @@
 .card {
   width: 540px;
   margin: 0;
+  padding: 0;
+}
+
+.card__section {
+  padding: 0;
 }
 
 .card__title {
   display: flex;
-  margin: 0 40px 32px;
+  margin: 0 0 32px;
   font-family: Inter, Arial, sans-serif;
   font-weight: bold;
   font-size: 20px;
@@ -15,11 +20,11 @@
 
 .card__list-item {
   display: flex;
-  padding-bottom: 16px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 16px;
   line-height: 20px;
   color: #000000;
+  padding: 0 0 16px;
 }
 
 .card__list-item:last-child {
