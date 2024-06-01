@@ -6,6 +6,7 @@
 
 .card__section {
   padding: 0;
+  margin: 0;
 }
 
 .card__title {
@@ -16,6 +17,7 @@
   font-size: 20px;
   line-height: 30px;
   color: #000000;
+  padding: 0;
 }
 
 .card__list-item {
