@@ -15,6 +15,8 @@
   position: absolute;
   top: 124px;
   right: 5px;
+  margin-left: auto;
+  margin-bottom: 0;
   width: 646px;
   height: 568px;
 }
@@ -54,13 +56,14 @@
   display: flex;
   justify-content: space-between;
   position: relative;
+  margin: auto 0 0;
 }
 
 .header__paragraphs {
-  margin: 0;
   font-family: Inter, Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+  margin: 0;
 }
