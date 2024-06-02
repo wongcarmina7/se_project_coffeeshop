@@ -57,6 +57,7 @@
   justify-content: space-between;
   position: relative;
   margin: auto 0 0;
+  align-items: flex-end;
 }
 
 .header__paragraphs {
