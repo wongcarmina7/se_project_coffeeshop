@@ -13,11 +13,8 @@
 }
 
 .nav__link:hover {
+  transition-property: all;
   color: #2f80ed;
-  font-size: 20px;
-  font-style: italic;
-  transition-timing-function: ease-in-out;
-  transition-delay: 0.5s;
 }
 
 .nav__link {
